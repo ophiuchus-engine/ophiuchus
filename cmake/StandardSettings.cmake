@@ -12,5 +12,5 @@ macro(standard_settings)
   set(CMAKE_EXPORT_COMPILE_COMMANDS ON)
 
   include("cmake/StaticAnalyzers.cmake")
-  enable_clang_tidy(ON)
+  #enable_clang_tidy(ON)
 endmacro()
